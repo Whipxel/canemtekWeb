@@ -5,7 +5,8 @@
 
 .navbar .navbar-nav{
 	display: inline-block;
-	float: none;	
+	float: none;
+	font-family: 'Anton' , sans-serif;
 }
 
 .navbar .navbar-collapse{
@@ -13,7 +14,7 @@
 }
 
 .footer {
-  position: absolute;
+ 
   right: 0;
   bottom: 0;
   left: 0;
@@ -40,3 +41,37 @@
  #social-fb:hover {
      color: #3B5998;
  }
+
+.text-wrapper h1{
+	text-align: center;
+	color: #000000;
+	font-size: 50px;
+	font-family: 'Anton' , sans-serif;
+	
+}
+
+section p{
+		font-size: 30px;
+		font-family: 'Anton' , sans-serif;
+}
+
+#img-container img {
+   width: 80%; 
+   height: auto;
+   padding-bottom: 40px;
+}
+
+#img-container-3 img {
+   width: 80%; 
+   height: auto;
+   padding-bottom: 40px;
+}
+
+section .row img {
+  margin: 0 0 30px;
+  width: 100%;
+}
+
+.col-md-6 {
+  margin: 0 0 30px;
+}
